@@ -18,6 +18,35 @@ Mean of Array - Calculates the average (mean) of elements in an array.
 
 Variance of Array - Calculates the variance of numbers in an array.
 
+## Files
+Main.java: Contains the main method that runs the program and calls the user input and calculator methods.
+
+UserInput.java: A utility class to handle the user input.
+
+Calculator.java: Contains methods to perform various mathematical operations.
+
+## Methods
+### Main.java
+public static void main(String[] args): The main method, which starts the program, prompts the user for input, and calls methods to perform the necessary calculations.
+### UserInput.java
+public static double getInput(String prompt): This method asks the user for a numerical input. It takes a string prompt as an argument and returns the user’s input as a double.
+### Calculator.java
+int calculateSum(int[] numbers): Adds two numbers and returns the result.
+
+int calculateDiff(int[] numbers): Subtracts the second number from the first and returns the result.
+
+int calculateProduct(int[] numbers): Multiplies two numbers and returns the result.
+
+int calculateQuotient(int[] numbers): Divides the first number by the second. If the second number is 0, it will print a message and return 0 to avoid division by zero errors.
+
+void fibonacci(int n): Prints the Fibonacci series up to n terms.
+
+int sumOfArray(int[] array): Returns the sum of all numbers in the given array.
+
+double meanOfArray(int[] array): Calculates and returns the mean (average) of all numbers in the array.
+
+double varianceOfArray(int[] array): Calculates and returns the variance of the numbers in the array.
+
 ## Setup
 ### To run the project, follow these steps:
 
