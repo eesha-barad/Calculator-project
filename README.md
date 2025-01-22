@@ -1,5 +1,5 @@
 # Calculator-project
-This project is a simple Java-based calculator with various functionalities, including basic arithmetic operations and additional features like Fibonacci series generation, mean and mode of an array, and variance calculation.
+This project is a simple Java-based calculator with various functionalities, including basic arithmetic operations and additional features like Fibonacci series generation, mean and variance calculation of an array.
 
 ## Features
 The program supports the following functionalities:
