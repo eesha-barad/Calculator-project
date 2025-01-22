@@ -29,7 +29,8 @@ class Main{
             System.out.println("8. Exit");
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
-
+			
+			// Menu driven switch case program for all calculator operations
             switch (choice) {
                 case 1: // Addition
                     System.out.println("Sum is: " + calc.calculateSum(input.inputNumbers()));
