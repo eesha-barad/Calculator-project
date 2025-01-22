@@ -5,13 +5,17 @@ This project is a simple Java-based calculator with various functionalities, inc
 The program supports the following functionalities:
 
 Addition - Calculates the sum of two numbers.
+
 Subtraction - Finds the difference between two numbers.
+
 Multiplication - Multiplies two numbers.
+
 Division - Divides two numbers (handles division by zero).
+
 Fibonacci Series - Generates the Fibonacci series up to a specified number of terms.
-Sum of Array - Calculates the sum of elements in an array.
+
 Mean of Array - Calculates the average (mean) of elements in an array.
-Mode of Array - Finds the most frequent element (mode) in an array.
+
 Variance of Array - Calculates the variance of numbers in an array.
 
 ## Setup
