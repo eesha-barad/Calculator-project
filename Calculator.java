@@ -24,4 +24,21 @@ class Calculator{
 		}
 		return numbers[0] / numbers[1];
 	}
+	
+	// Function to calculate fibonacci series of a number
+	void fibonacci(int n){
+		if(n<=0){
+			System.out.println("Number of terms > than 0");
+			return;
+		}
+		System.out.println("Fibonacci series up to "+n+ " terms: ");
+		int a = 0, b=1;
+		for(int i=1; i<=n;i++){
+			System.out.print(a + " ");
+			int next = a+b;
+			a = b;
+			b = next;
+		}
+		System.out.println();
+	}
 }
