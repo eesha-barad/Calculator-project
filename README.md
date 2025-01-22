@@ -29,7 +29,9 @@ Calculator.java: Contains methods to perform various mathematical operations.
 ### Main.java
 public static void main(String[] args): The main method, which starts the program, prompts the user for input, and calls methods to perform the necessary calculations.
 ### UserInput.java
-public static double getInput(String prompt): This method asks the user for a numerical input. It takes a string prompt as an argument and returns the user’s input as a double.
+int[] inputNumbers(): Prompts the user to input two integers and returns them as an array.
+
+int[] inputArray(): Prompts the user to input the size of the array and then the array elements, returning them as an array.
 ### Calculator.java
 int calculateSum(int[] numbers): Adds two numbers and returns the result.
 
