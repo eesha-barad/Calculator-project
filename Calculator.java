@@ -41,4 +41,37 @@ class Calculator{
 		}
 		System.out.println();
 	}
+	
+	// Function to calculate sum of an array
+	int sumOfArray(int[] array){
+		int sum = 0;
+		for(int num : array){
+			sum += num;
+		}
+		return sum;
+	}
+
+	// Function to calculate mean of an array
+	double meanOfArray(int[] array){
+		if (array.length == 0){
+			System.out.println("Array is empty");
+			return 0;
+		}
+		return (double) sumOfArray(array) / array.length;
+	
+	}
+	
+	// Function to calculate variance of an array
+	double varianceOfArray(int[] array) {
+		if (array.length == 0) {
+			System.out.println("Array is empty");
+			return 0;
+		}
+		double mean = meanOfArray(array);
+		double sumSquaredDifferences = 0;
+		for (int num : array) {
+			sumSquaredDifferences += Math.pow(num - mean, 2);
+		}
+		return sumSquaredDifferences / array.length;
+	}
 }
