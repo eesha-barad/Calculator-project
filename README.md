@@ -67,10 +67,4 @@ The program will prompt you to select an operation from a menu. Choose an operat
 
 The available operations include addition, subtraction, multiplication, division, generating the Fibonacci series, and performing calculations with arrays (mean and variance).
 
-### Contact
-For any questions or suggestions, feel free to contact me via:
-Email: eeshabarad49@gmail.com
-
-### License
-This project is open-source and free to use under the MIT License.
 
